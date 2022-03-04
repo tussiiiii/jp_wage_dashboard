@@ -7,8 +7,6 @@ from pathlib import Path
 
 st.title('日本の賃金データダッシュボード')
 
-""" CSVファイルのパス(カレントディレクトリ) """
-
 p_jp_ind = Path('./csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv')
 df_jp_ind = pd.read_csv(p_jp_ind.absolute(), encoding='shift_jis')
 p_jp_category = Path('./csv_data/雇用_医療福祉_一人当たり賃金_全国_大分類.csv')
