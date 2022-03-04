@@ -10,7 +10,7 @@ st.title('日本の賃金データダッシュボード')
 p_jp_ind = Path('./csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv')
 df_jp_ind = pd.read_csv(p_jp_ind.absolute(), encoding='shift_jis')
 p_jp_category = Path('./csv_data/雇用_医療福祉_一人当たり賃金_全国_大分類.csv')
-df_jp_category = pd.read_csv(p_jp_ind.absolute(), encoding='shift_jis')
+df_jp_category = pd.read_csv(p_jp_category.absolute(), encoding='shift_jis')
 p_pref_ind = Path('./csv_data/雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv')
 df_pref_ind = pd.read_csv(p_pref_ind.absolute(), encoding='shift_jis')
 
